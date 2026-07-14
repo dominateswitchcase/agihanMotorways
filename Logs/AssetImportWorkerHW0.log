@@ -1,0 +1,549 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.3f1 (c2eb47b3a2a9) revision 12774215'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-BACANI FAM" at "2026-07-14T14:52:47.3669599Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-14T14:52:47Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/BACANI FAM/Documents/GitHub/agihanMotorways
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+61622
+-parentPid
+36960
+-analyticsCloudUserId
+anonymous
+-analyticsLocalProjectId
+84e7bc41f51e5a345bf9aa577495aa3b
+-licensingIpc
+LicenseClient-BACANI FAM
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/BACANI FAM/Documents/GitHub/agihanMotorways
+C:/Users/BACANI FAM/Documents/GitHub/agihanMotorways
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [27136]  Target information:
+
+Player connection [27136]  * "[IP] 192.168.254.108 [Port] 0 [Flags] 2 [Guid] 2199404227 [EditorId] 2199404227 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-M46RC77R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27136] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27136] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.5.3f1 (c2eb47b3a2a9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/BACANI FAM/Documents/GitHub/agihanMotorways/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:          ATI
+    VRAM:            7846 MB
+    App VRAM Budget: 7669 MB
+    Driver:          31.0.21914.8004
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006898 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling: 3193ms
+	BeginReloadAssembly (504ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (78ms)
+	initialDomainReloadingComplete (225ms)
+	LoadAllAssembliesAndSetupDomain (1084ms)
+		LoadAssemblies (493ms)
+		AnalyzeDomain (727ms)
+			TypeCache.Refresh (721ms)
+				TypeCache.ScanAssembly (679ms)
+	FinalizeReload (1286ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (325ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (387ms)
+Initializing Unity extensions:
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-BACANI FAM"
+[Licensing::IpcConnector] LicenseClient-BACANI FAM channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-BACANI FAM-6000.5.3" at "2026-07-14T14:52:54.0353359Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8848, path: "C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              dec3c99d9b454ddfabfe53da773c6036
+  Correlation Id:          a675b0450301c8543b9b3e057989bd98
+  External correlation Id: 6670791112920250962
+  Machine Id:              guTVK3UK8wmHNeOSSkZjV1OBRbw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-BACANI FAM-6000.5.3" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-BACANI FAM-6000.5.3-notifications" at "2026-07-14T14:52:54.0664748Z"
+[Licensing::Module] Licensing Background thread has ended after 6.70s
+[Licensing::Module] Licensing is initialized (took 1.88s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18967682758710-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.436 seconds
+Domain Reload Profiling: 3703ms
+	BeginReloadAssembly (610ms)
+		DisableScriptedObjects (20ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (353ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (51ms)
+				TypeCache.ScanAssembly (37ms)
+			BuildScriptInfoCaches (30ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2449ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (492ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (407ms)
+			AfterProcessingInitializeOnLoad (30ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 564 unused Assets / (124.2 KB). Loaded Objects now: 1188.
+Memory consumption went from 159.2 MB to 159.1 MB.
+Total: 14.854600 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.306300 ms MarkObjects: 13.422100 ms  DeleteObjects: 0.715400 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:58.6033204Z
+  Time since last request: 33894.09551410000131 seconds.
+  importAddress: GUID: 0e752c18e5c828b43a37b725f3ba333d - Path: Assets/UI Auto Animation/Animation Presets/Zoom InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0e752c18e5c828b43a37b725f3ba333d - Path: Assets/UI Auto Animation/Animation Presets/Zoom InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0e752c18e5c828b43a37b725f3ba333d' -> (Import Result ID: '5fcbe2d0e6a8d3d611ff80d2aaad5c54') in 0.607 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28e7e5a7a996aef216c4a9077797e8d4 DependenciesID=455013a46af6ec0bf5beef2aadf800e2 StaticDependenciesID=47db86378ce05fec0f641cc9140d2149 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.21924Z
+  Time since last request: 0.0011353 seconds.
+  importAddress: GUID: 2d6b5ac432a2c314ea4c0501a66facce - Path: Assets/UI Auto Animation/Animation Presets/Flip InOut 1 At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2d6b5ac432a2c314ea4c0501a66facce - Path: Assets/UI Auto Animation/Animation Presets/Flip InOut 1 At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2d6b5ac432a2c314ea4c0501a66facce' -> (Import Result ID: 'e70b81847138675d4c8c88138aa14ce3') in 0.056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f9dc187a4fd1cecb4a6fe7aea502073 DependenciesID=9b18e20bd558010d04d1af30833ea5a8 StaticDependenciesID=a54ab4ccacc58a88e51426ecc8cec153 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.2802163Z
+  Time since last request: 0.0003268 seconds.
+  importAddress: GUID: bc990a27e51abd442b4b41246947bafc - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Diagonal At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bc990a27e51abd442b4b41246947bafc - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Diagonal At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bc990a27e51abd442b4b41246947bafc' -> (Import Result ID: '678be2f0970b5109faf3d2f62bcad8c1') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=809a65980de77593f9554bdccecb50d8 DependenciesID=898167257f5f62b27f9302f68e5baeb3 StaticDependenciesID=2565fcc35b57c68d093ab6a81f86307d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.3182062Z
+  Time since last request: 0.0019137 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Main Menu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Main Menu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '0e862e76dd85213495229582180448a0') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b22980b0eff7c088fa4c7308b30a535 DependenciesID=3bc42147858001258dfca5b029153131 StaticDependenciesID=836011d19076211f73f9fa7065030f30 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.3552051Z
+  Time since last request: 0.0051916 seconds.
+  importAddress: GUID: 5b8dc4fe56b7d874ab8a4cc7d6f2b40e - Path: Assets/UI Auto Animation/Animation Presets/Fade InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5b8dc4fe56b7d874ab8a4cc7d6f2b40e - Path: Assets/UI Auto Animation/Animation Presets/Fade InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5b8dc4fe56b7d874ab8a4cc7d6f2b40e' -> (Import Result ID: '3ca58ad7ba812c96c286867bd236db8e') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce3f79bb5cd2d06c665ee472457db235 DependenciesID=958984300b9fc5d33185abc8f12bf25c StaticDependenciesID=4a90f709f12c54eb24fde3e58324158e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.4107697Z
+  Time since last request: 0.0001076 seconds.
+  importAddress: GUID: b4f83dbc56ba1e347bf76d986182978e - Path: Assets/UI Auto Animation/Animation Presets/AutoTrigger/AutoTriggerIn_Yoyo.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b4f83dbc56ba1e347bf76d986182978e - Path: Assets/UI Auto Animation/Animation Presets/AutoTrigger/AutoTriggerIn_Yoyo.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b4f83dbc56ba1e347bf76d986182978e' -> (Import Result ID: '9509cd5df4d93cfaed88479e5098b29b') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=455e5cb503e29c4cae4fce374974a14a DependenciesID=080ba09097b29ac53f282df64bd3f758 StaticDependenciesID=0f97c74b8360d17df3fe0c42d53c9090 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.4476409Z
+  Time since last request: 0.0012235 seconds.
+  importAddress: GUID: 28d43224cf572e8418a2969c266c4943 - Path: Assets/UI Auto Animation/Scripts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 28d43224cf572e8418a2969c266c4943 - Path: Assets/UI Auto Animation/Scripts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 28d43224cf572e8418a2969c266c4943' -> (Import Result ID: 'a3c6c27fcb7d4c45da5b11f39cd1dd11') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63ca7c2cd77a01c14de39dc915eee1eb DependenciesID=15a4273fcd9c50604107b0f63536713b StaticDependenciesID=9cae2cc8b9cb5faf45312db6791fe44e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.4783344Z
+  Time since last request: 0.0017323 seconds.
+  importAddress: GUID: 7596d9c0d74cf2840b8f7c75f4808a4e - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Bottom At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7596d9c0d74cf2840b8f7c75f4808a4e - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Bottom At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7596d9c0d74cf2840b8f7c75f4808a4e' -> (Import Result ID: 'ebebf10097c2c5184ff2711044cb7268') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29495dec3c66879d1d83f6f3d7363afa DependenciesID=d61790d65998feabd0fe2ff0cd6f0ca3 StaticDependenciesID=a70079109302dac455e710e73e44894d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.514759Z
+  Time since last request: 0.0000898 seconds.
+  importAddress: GUID: 76cad92bab1431444a53b6b903c94e81 - Path: Assets/UI Auto Animation/Scripts/UIAutoAnimationEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 76cad92bab1431444a53b6b903c94e81 - Path: Assets/UI Auto Animation/Scripts/UIAutoAnimationEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 76cad92bab1431444a53b6b903c94e81' -> (Import Result ID: 'ee35a8947e5cca7f9f30666e54c37eba') in 0.096 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9795fb8558ff68e4fdc7e626e5c24ce2 DependenciesID=d8ac0eb8a5ab35a071f71f8b685b9d9e StaticDependenciesID=76ac34a521fd57829fd31a6c34c398a5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.613787Z
+  Time since last request: 0.0004828 seconds.
+  importAddress: GUID: bb4e128e3fae13a4bbb89ed5765b7a86 - Path: Assets/UI Auto Animation/Animation Presets/Fade InOut At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bb4e128e3fae13a4bbb89ed5765b7a86 - Path: Assets/UI Auto Animation/Animation Presets/Fade InOut At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bb4e128e3fae13a4bbb89ed5765b7a86' -> (Import Result ID: '618f8ae7da3eae90b8410b66bc197865') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14ed4a91f3dd800131b3d6dd81c7895e DependenciesID=eaff46e9ba0220178f5cbef557b6a234 StaticDependenciesID=9b3742d5e1813730974d70120a996e32 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.650873Z
+  Time since last request: 0.0012897 seconds.
+  importAddress: GUID: 3f73f6c2a6c90b540ae4056eff9642c8 - Path: Assets/UI Auto Animation/Animation Presets/AutoTrigger/AutoTriggerOut_Yoyo.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3f73f6c2a6c90b540ae4056eff9642c8 - Path: Assets/UI Auto Animation/Animation Presets/AutoTrigger/AutoTriggerOut_Yoyo.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3f73f6c2a6c90b540ae4056eff9642c8' -> (Import Result ID: 'bc8d16f7dd31f32dd8007d192c147a88') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b51133308bd1f4326629a6cd1e691d10 DependenciesID=6b93ebdea56bd6dc322404a325b24657 StaticDependenciesID=131491e4bc5b150120e5a394811d71b0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.6867713Z
+  Time since last request: 0.0014178 seconds.
+  importAddress: GUID: bff69159bb50979448132f418ed81362 - Path: Assets/UI Auto Animation - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bff69159bb50979448132f418ed81362 - Path: Assets/UI Auto Animation - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bff69159bb50979448132f418ed81362' -> (Import Result ID: 'c7fd9d6cf1e1e325357844a8a9a571b0') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9222791cad51bc394e011d6a2f24c5a DependenciesID=270a46e8c56a95f972d96b813eb1ebfc StaticDependenciesID=ff1d8b7264a02e9145f7bd020c29b768 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.7097986Z
+  Time since last request: 0.0004336 seconds.
+  importAddress: GUID: f7ffeee45352e4843b7e1df525780522 - Path: Assets/UI Auto Animation/Scripts/UIAutoAnimation.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f7ffeee45352e4843b7e1df525780522 - Path: Assets/UI Auto Animation/Scripts/UIAutoAnimation.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f7ffeee45352e4843b7e1df525780522' -> (Import Result ID: 'a5d9a5660ce5fca4f6d133b264622512') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7129c16afcaf62d639e0250bb48ce7b8 DependenciesID=644a3c59571714ddbb032a86ef4b0665 StaticDependenciesID=e7955bf55e0b77ea3efd021fd751c8f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.7331974Z
+  Time since last request: 0.0009876 seconds.
+  importAddress: GUID: 119feb6bd5be2894aa7f53cdf7833205 - Path: Assets/UI Auto Animation/Animation Presets/Flip InOut 1.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 119feb6bd5be2894aa7f53cdf7833205 - Path: Assets/UI Auto Animation/Animation Presets/Flip InOut 1.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 119feb6bd5be2894aa7f53cdf7833205' -> (Import Result ID: '9fc85438326f4c94d399dc56537c745e') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aba2963141850563256738acd8ad9917 DependenciesID=dfc87fec722f0e32a105917a62dfb583 StaticDependenciesID=857ac734ece55eeb170a81bb8a305619 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.7767976Z
+  Time since last request: 0.0035048 seconds.
+  importAddress: GUID: 78bdcbf1dfafeec4390349bd8fa1c168 - Path: Assets/UI Auto Animation/Animation Presets/Flip InOut 3.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 78bdcbf1dfafeec4390349bd8fa1c168 - Path: Assets/UI Auto Animation/Animation Presets/Flip InOut 3.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 78bdcbf1dfafeec4390349bd8fa1c168' -> (Import Result ID: 'ff202093ddfffa77c5eb0e070027acc8') in 0.059 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b528596e3696a2d73af09d60ec49b90d DependenciesID=21098698de8f4583baa84bf600232245 StaticDependenciesID=7fb34986f605fe4bbefd9791d9ed9955 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.8427734Z
+  Time since last request: 0.0010919 seconds.
+  importAddress: GUID: 34178be34609b3742b3ec24dffe5bb8c - Path: Assets/UI Auto Animation/Animation Presets/Flip InOut 2.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 34178be34609b3742b3ec24dffe5bb8c - Path: Assets/UI Auto Animation/Animation Presets/Flip InOut 2.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 34178be34609b3742b3ec24dffe5bb8c' -> (Import Result ID: '906c09c522195f7cbfbe78a949d26e15') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aebd7347ddbdd5a0e0b0d9c07324aa9f DependenciesID=09eb4e39b5e1b4c82ec79e01f5e9916e StaticDependenciesID=a937686e04212109cb88e467630fe869 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.888847Z
+  Time since last request: 0.0067384 seconds.
+  importAddress: GUID: 930a64fddddcfef4d910757bd724bb98 - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types/Elastic Easing InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 930a64fddddcfef4d910757bd724bb98 - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types/Elastic Easing InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 930a64fddddcfef4d910757bd724bb98' -> (Import Result ID: 'c0302777739490e3162cdfd290528505') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=684a35803194a8d71a2e9019b6077ffd DependenciesID=c109e2acf9f0382b2ab35183ad4a4e9f StaticDependenciesID=2c4adc774f5a09bf448404eff3a39248 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.9253985Z
+  Time since last request: 0.0000761 seconds.
+  importAddress: GUID: 93cf717d9d2a26745a46ea4bf2f04f5b - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types/Cubic Easing.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 93cf717d9d2a26745a46ea4bf2f04f5b - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types/Cubic Easing.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 93cf717d9d2a26745a46ea4bf2f04f5b' -> (Import Result ID: '909fb48e8fe194f54cf28e9a85e33d1a') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d80712068df512f60a44de027aa08282 DependenciesID=5f4edef81fa852c9d9b27ed0a0afb53a StaticDependenciesID=50da6a2f98969c600d83c7110e900297 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.9594367Z
+  Time since last request: 0.0010276 seconds.
+  importAddress: GUID: b06b8886bc17b524a87a8a95a57697b4 - Path: Assets/UI Auto Animation/Animation Presets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b06b8886bc17b524a87a8a95a57697b4 - Path: Assets/UI Auto Animation/Animation Presets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b06b8886bc17b524a87a8a95a57697b4' -> (Import Result ID: '8fc0bcfc1fd898ffb45fd81e34486797') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=200ff41d358ddeeee19c8c46f26b6b31 DependenciesID=155e6311e6b4dcb8ff7a57b800f9669a StaticDependenciesID=a217ae6cbd5ede99f4d1d294a91d401b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:52:59.992502Z
+  Time since last request: 0.0001025 seconds.
+  importAddress: GUID: 0f6eb9ad1f89b56488ebd48acdfc8aee - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Up.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0f6eb9ad1f89b56488ebd48acdfc8aee - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Up.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0f6eb9ad1f89b56488ebd48acdfc8aee' -> (Import Result ID: '2f9862eafa9281d0b5d9144617091663') in 0.060 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=027aeb55c19a43be4bf61ca30db6b808 DependenciesID=9295455878133f284c6182fa7969c35b StaticDependenciesID=92017e30e1f13ff1be5f50c676087091 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.0561438Z
+  Time since last request: 0.0005195 seconds.
+  importAddress: GUID: 887d6ad0f58d38545b35416b1e11e189 - Path: Assets/UI Auto Animation/Animation Presets/Fancy Flip InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 887d6ad0f58d38545b35416b1e11e189 - Path: Assets/UI Auto Animation/Animation Presets/Fancy Flip InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 887d6ad0f58d38545b35416b1e11e189' -> (Import Result ID: '6493084daa69a676dc9933f768112ddb') in 0.035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce99b134fdb7f6f1b4c15bb3f68cc1ca DependenciesID=24cdd587be91507fe4f9c8dc85c9fa14 StaticDependenciesID=42094fd62df9b9292a50af1e82d7b17f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.0950941Z
+  Time since last request: 0.0011326 seconds.
+  importAddress: GUID: 09becc92ca7be05459bdfa3f9c10c5b0 - Path: Assets/UI Auto Animation/Scripts/SOAnimationPresets.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 09becc92ca7be05459bdfa3f9c10c5b0 - Path: Assets/UI Auto Animation/Scripts/SOAnimationPresets.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 09becc92ca7be05459bdfa3f9c10c5b0' -> (Import Result ID: 'bbf28dbc33fa2137a242821f6e705e7e') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93fab8335e07e7a1657a362ec194490e DependenciesID=aeff88e1bfd7dde24e8a916f01ae00b6 StaticDependenciesID=b0a1f3066e6b4e6cdf99aa2c73d0bf54 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.1176621Z
+  Time since last request: 0.0026573 seconds.
+  importAddress: GUID: c6ee61f000051ee42b65a227777f5bf9 - Path: Assets/UI Auto Animation/Animation Presets/AppearDisappear At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c6ee61f000051ee42b65a227777f5bf9 - Path: Assets/UI Auto Animation/Animation Presets/AppearDisappear At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c6ee61f000051ee42b65a227777f5bf9' -> (Import Result ID: '74aaca399db6579a73173cd3f2f96938') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0fa9ee260d1cefe63d8b29ab61e7cb6 DependenciesID=6d26a0d38b0ff3ede05e5b233d4c5454 StaticDependenciesID=9d8b014e0603bb5d6b76683864c222d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.1474962Z
+  Time since last request: 0.0008204 seconds.
+  importAddress: GUID: eee923364e93f544ebf950204cf45f5c - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types/Elastic Easing In.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: eee923364e93f544ebf950204cf45f5c - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types/Elastic Easing In.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: eee923364e93f544ebf950204cf45f5c' -> (Import Result ID: '0f2179af31842eef7625271b7a8a5e7f') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e75f73ac6314c274c8cbda9943706a1 DependenciesID=ed9f150349a5611488dc07859895fd57 StaticDependenciesID=3d0efd42496930a4cec3145e67f7095f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.1833558Z
+  Time since last request: 0.0029848 seconds.
+  importAddress: GUID: 0a99740c6aeb58842a7fa78452f95074 - Path: Assets/UI Auto Animation/Animation Presets/AutoTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0a99740c6aeb58842a7fa78452f95074 - Path: Assets/UI Auto Animation/Animation Presets/AutoTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0a99740c6aeb58842a7fa78452f95074' -> (Import Result ID: '3fd07364f11638a053519419808dbc16') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8312c0e9e607ba2a301781869147ed8 DependenciesID=9a9c1d994cfc68b599e7d119d22fccc3 StaticDependenciesID=c5cbfb8d4963f96e161468129210a4fe 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.2031595Z
+  Time since last request: 0.0009788 seconds.
+  importAddress: GUID: 5084988bfc9c02b4b95483c43ec75188 - Path: Assets/UI Auto Animation/Animation Presets/AppearDisappear.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5084988bfc9c02b4b95483c43ec75188 - Path: Assets/UI Auto Animation/Animation Presets/AppearDisappear.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5084988bfc9c02b4b95483c43ec75188' -> (Import Result ID: 'a5ae4b5b711f0f83244f041369c49fa9') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cbda179c856ac48addaf435489e46918 DependenciesID=aebf33f32f0df0944d765b9095ae8927 StaticDependenciesID=0b4b30e5cec8becc1cf16eb6b16e1295 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.24129Z
+  Time since last request: 0.0074428 seconds.
+  importAddress: GUID: 1d2eeddf042ae76459e2662d2d72bb88 - Path: Assets/UI Auto Animation/Animation Presets/Fancy Flip InOut At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1d2eeddf042ae76459e2662d2d72bb88 - Path: Assets/UI Auto Animation/Animation Presets/Fancy Flip InOut At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1d2eeddf042ae76459e2662d2d72bb88' -> (Import Result ID: '84343cfcfcd2fd65a6d7f55e25b97a65') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eec22691c3fd0fa6d1592742120963be DependenciesID=69ae9ec43eec5be141697efaa2b3f198 StaticDependenciesID=cfdf77aaf957f9593190f3e6ecc16b4f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.2925695Z
+  Time since last request: 0.0053468 seconds.
+  importAddress: GUID: b7460b39c12d3444f8daebe953ae7117 - Path: Assets/UI Auto Animation/Animation Presets/Stretch InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b7460b39c12d3444f8daebe953ae7117 - Path: Assets/UI Auto Animation/Animation Presets/Stretch InOut.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b7460b39c12d3444f8daebe953ae7117' -> (Import Result ID: '0889ae241c162a17c6e213ba2f85bc0b') in 0.041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5903e90495c770b9e5dd7c4e3c2d0fd8 DependenciesID=d546c72a2a615399e6fb837b0deaeb7c StaticDependenciesID=fb6f4a6b062d7bd637e13d7f0e3e3447 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.3396398Z
+  Time since last request: 0.0000712 seconds.
+  importAddress: GUID: de3dc58627c560140a186a09f0db6922 - Path: Assets/UI Auto Animation/Animation Presets/AutoTrigger/AutoTriggerIn_Repeating.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: de3dc58627c560140a186a09f0db6922 - Path: Assets/UI Auto Animation/Animation Presets/AutoTrigger/AutoTriggerIn_Repeating.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: de3dc58627c560140a186a09f0db6922' -> (Import Result ID: '93621fe136922037cf65ace976161279') in 0.051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8fc68f5ccba5151a928315f23ffe1ef7 DependenciesID=6601aaf2ded1b9103130c7f9c76fe788 StaticDependenciesID=e30e2660c2230773d42afcf1a86179e7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.3949529Z
+  Time since last request: 0.0014981 seconds.
+  importAddress: GUID: 4cf07c7409a0c264790b8468af584e1a - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Left At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4cf07c7409a0c264790b8468af584e1a - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Left At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4cf07c7409a0c264790b8468af584e1a' -> (Import Result ID: '4877a822af6456702dbc82fb13a99147') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b98599bf4eb3ca8843eafa481dd56be DependenciesID=6a70d6958a379a755109dabbba1ca400 StaticDependenciesID=d28b1fb0f77bfa729385ed5825b7e09e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.438637Z
+  Time since last request: 0.0032037 seconds.
+  importAddress: GUID: de9bcaba38f368a4db0aff57ba56506d - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types/Elastic Easing Out.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: de9bcaba38f368a4db0aff57ba56506d - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types/Elastic Easing Out.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: de9bcaba38f368a4db0aff57ba56506d' -> (Import Result ID: '1b8e7411a35f18ef237bc95508b5b9a3') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7f125086a9b1b5c3aca889f268338a3 DependenciesID=46db90e9209776419200f7ce805800b0 StaticDependenciesID=20e2d5efa25cb1fb4e236c0283ec6627 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.4723557Z
+  Time since last request: 0.0039635 seconds.
+  importAddress: GUID: 7b871cde2ef891647aa84c171c269d59 - Path: Assets/UI Auto Animation/Animation Presets/Stretch InOut At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7b871cde2ef891647aa84c171c269d59 - Path: Assets/UI Auto Animation/Animation Presets/Stretch InOut At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7b871cde2ef891647aa84c171c269d59' -> (Import Result ID: 'c953d68b1e382f49bc7b3b0886324ca8') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc005e88a215f9e5abe34fcaa84f4278 DependenciesID=9d7825f216e9bdd848dd4411d5791b78 StaticDependenciesID=8f37d13518322421780288ec5e420e80 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.5208809Z
+  Time since last request: 0.0020491 seconds.
+  importAddress: GUID: 5ff7ffc89b2cdbf48a9205b407722aa0 - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Left.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5ff7ffc89b2cdbf48a9205b407722aa0 - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Left.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5ff7ffc89b2cdbf48a9205b407722aa0' -> (Import Result ID: 'a5f50c650a5912488ddbb6ae598f816a') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=761047f906b4106dce0d5ee18d7cd1ea DependenciesID=9a5c5a48ca47a702cb12860841fd4e91 StaticDependenciesID=6a95a68d6dcefd21719e122dbf72afff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.5617547Z
+  Time since last request: 0.0008426 seconds.
+  importAddress: GUID: e1d0bd443736ec34d88b9cefde92ea0e - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Diagonal.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e1d0bd443736ec34d88b9cefde92ea0e - Path: Assets/UI Auto Animation/Animation Presets/Float InOut From Diagonal.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e1d0bd443736ec34d88b9cefde92ea0e' -> (Import Result ID: '21f9c1b504ac59a9497385646191ff69') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c230030e7795cb52cc9c0662611e827 DependenciesID=f7f902beb18b14bf781739bfe019dd95 StaticDependenciesID=fb449257e22540da2a323364e8f593ae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.6011249Z
+  Time since last request: 0.0014306 seconds.
+  importAddress: GUID: a64d07692cbc6064d83ea3ae43be9683 - Path: Assets/UI Auto Animation/Scripts/SOAnimationPresetsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a64d07692cbc6064d83ea3ae43be9683 - Path: Assets/UI Auto Animation/Scripts/SOAnimationPresetsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a64d07692cbc6064d83ea3ae43be9683' -> (Import Result ID: 'ac5002e701b97dd6faf4c7a60fd26b10') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5bcc7f8294dfdd885e9089567f26991 DependenciesID=e7b9f898d48bcb6b87dafa2093b24779 StaticDependenciesID=1d2b723450f825ca01ee1e298bdf2a87 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.6449794Z
+  Time since last request: 0.0017581 seconds.
+  importAddress: GUID: 71eff5cb7a7583d40bacd4a31c7930f9 - Path: Assets/UI Auto Animation/Animation Presets/Zoom InOut At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 71eff5cb7a7583d40bacd4a31c7930f9 - Path: Assets/UI Auto Animation/Animation Presets/Zoom InOut At Once.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 71eff5cb7a7583d40bacd4a31c7930f9' -> (Import Result ID: '7a5ac6502e88dc09e941707812dea467') in 0.089 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b081651e04a6f364565f648b7207b509 DependenciesID=dd8481473ecff57b1a3b0668c0739933 StaticDependenciesID=02701f3da20b4f3813aebf4e5bf32686 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-14T14:53:00.7377228Z
+  Time since last request: 0.0001054 seconds.
+  importAddress: GUID: f77b54a06d652ec4e8304aad856e6c52 - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f77b54a06d652ec4e8304aad856e6c52 - Path: Assets/UI Auto Animation/Animation Presets/Animation Curve Types - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f77b54a06d652ec4e8304aad856e6c52' -> (Import Result ID: '28429d557dcecc9eb8807a2c99b4d190') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01f4e0778f89eb0a45a0abed50ee56cc DependenciesID=dc51c6fdd33b84692d2c4d91f5c4b40c StaticDependenciesID=b6b581a22c50a8b5a2f2e2ac367bd7ab 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
