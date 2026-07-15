@@ -2,7 +2,7 @@ DALOY
 
 A real-time public transportation management game — Para sa Street
 
-Built in Unity for [Jam Name Here] · 2D with a possible 3D background
+Built in Unity for UPLB: Game Jam · 2D with a possible 3D background
 
 
 About
